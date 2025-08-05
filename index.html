@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/style.css" />
+    <title>Corgi Landing Page</title>
+  </head>
+  <body>
+    <button class="theme-button">Dark mode</button>
+
+    <div class="container">
+      <h1>🐾Corgi Chronicles</h1>
+      <h2>About Me:</h2>
+      <p>
+        Hi! I’m Sheila a frontend developer in training, stay at home mom, and
+        corgi enthusiast. Life with my corgi is a mix of muddy paw prints,
+        dramatic side-eyes, and a whole lot of fluff. When I’m not coding or
+        chasing toddlers, I’m usually chasing a low riding dog with a stolen
+        sock.
+      </p>
+
+      <!--Corgi images-->
+      <a href="https://en.wikipedia.org/wiki/Welsh_Corgi" target="_blank">
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/164/548/original/IMG_0471.jpg?1746128725"
+          alt=""
+          class="about-corgi-image"
+          title="Click to learn more about corgis!"
+        />
+      </a>
+      <div class="grid">
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/164/551/original/IMG_2012.jpg?1746128754"
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/164/552/original/IMG_0555.JPG?1746128771"
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/164/549/original/IMG_2081.jpg?1746128736"
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/164/550/original/IMG_4838.jpg?1746128746"
+        />
+      </div>
+
+      <h2>Why I Love It</h2>
+      <ul>
+        <li>🐶Corgis are funny, loyal, and low to the ground (relatable).</li>
+        <li>🐕‍🦺🌳They make every walk an adventure (and a social event).</li>
+        <li>🦴🎉Training and playtime help me unwind and laugh.</li>
+        <li>
+          👨🏽‍👩🏽‍👧🏽‍👦🏽💪🏽It’s a fun way to bond with my kids and get sneaky
+          exercise.
+        </li>
+      </ul>
+
+      <!--corgi fun fact button -->
+      <button onclick="showFact()">🐶 Tap for a Corgi Fun Fact</button>
+      <p id="corgiFact" style="text-align: center; font-style: italic"></p>
+    </div>
+    <footer>
+      Coded with 💚 by
+      <a href="https://github.com/shlqjn/" target="_blank"> Sheila Kagawa </a>
+      is
+      <a href="https://github.com/shlqjn/My-Weather-Forecast/" target="_blank">
+        open-sourced on GitHub
+      </a>
+      and
+      <a
+        href="https://forecast-shecodes-weather-app.netlify.app/"
+        target="_blank"
+      >
+        hosted on Netlify.</a
+      >
+    </footer>
+    <script src="src/index.js"></script>
+  </body>
+</html>

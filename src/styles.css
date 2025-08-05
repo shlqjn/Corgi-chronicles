@@ -1,0 +1,147 @@
+body {
+  background: linear-gradient(
+    108.9deg,
+    rgb(163, 217, 221) 10.4%,
+    rgb(174, 250, 182) 56.2%,
+    rgb(238, 243, 220) 86.1%
+  );
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", serif;
+  text-align: center;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+ul li {
+  margin: 10px 0;
+  padding: 5px;
+}
+
+/* === Container === */
+.container img {
+  display: block;
+  margin: 10px auto;
+  max-width: 90%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+/* === Buttons === */
+button {
+  display: block;
+  margin: 0 auto;
+  border: 1px solid #07588a;
+  background: #6ac1b8;
+  font-size: 20px;
+  border-radius: 20px;
+  padding: 10px 15px;
+  transition: all 150ms ease-in-out;
+  color: white;
+}
+
+button:hover {
+  background: #07588a;
+  cursor: pointer;
+}
+.theme-button {
+  font-size: 10px;
+  background: black;
+  color: white;
+  padding: 5 8px;
+}
+
+.theme-button:hover {
+  color: black;
+  background: white;
+}
+
+#funFactBtn {
+  margin: 20px auto;
+  background-color: #6ac1b8;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-size: 18px;
+  transition: all 0.2s ease-in-out;
+}
+
+#funFactBtn:hover {
+  background-color: #07588a;
+  cursor: pointer;
+}
+/* === Footer === */
+footer {
+  text-align: center;
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+/* === Corgi About Image Animation === */
+.about-corgi-image {
+  border-radius: 10px;
+  transition: transform 0.3s ease, filter 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-corgi-image:hover {
+  filter: brightness(0.9) contrast(1.1);
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(106, 193, 184, 0.5);
+}
+
+/* === Corgi  Image Grid === */
+.grid {
+  margin: 15px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.grid img {
+  width: 100%;
+  border-radius: 5px;
+  transition: all 150ms ease-in-out;
+}
+
+/* === Dark theme === */
+.dark {
+  background: linear-gradient(
+    109.6deg,
+    rgba(0, 0, 0, 0.93) 11.2%,
+    rgb(63, 61, 61) 78.9%
+  );
+  color: white;
+}
+
+.dark .container {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.dark a {
+  color: #6ac1b8;
+}
