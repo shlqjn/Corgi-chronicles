@@ -34,7 +34,6 @@ ul li {
   padding: 5px;
 }
 
-/* === Container === */
 .container img {
   display: block;
   margin: 10px auto;
@@ -95,13 +94,21 @@ button:hover {
   background-color: #07588a;
   cursor: pointer;
 }
-/* === Footer === */
+
 footer {
   text-align: center;
   margin: 10px 0;
   font-size: 18px;
 }
-
+footer a {
+  color: #07588a;
+  text-decoration: none;
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+footer a:hover {
+  color: #33b6a9;
+  text-decoration: underline;
+}
 /* === Corgi About Image Animation === */
 .about-corgi-image {
   border-radius: 10px;
